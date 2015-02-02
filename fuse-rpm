@@ -2,6 +2,7 @@
 if [ ! -f './SRPMS/fuse-2.8.5-99.vitki.01.el5.src.rpm' ]; then
   wget --no-check-certificate 'https://rpm.vitki.net/pub/centos/6/source/fuse-2.8.5-99.vitki.01.el5.src.rpm' -O './SRPMS/fuse-2.8.5-99.vitki.01.el5.src.rpm'
 fi
+mkdir BUILD
 rpmbuild --define "_topdir `pwd`" --rebuild 'SRPMS/fuse-2.8.5-99.vitki.01.el5.src.rpm'
 echo Your packages are available at $PWD/RPMS
 
