@@ -1,2 +1,2 @@
 #!/bin/bash
-rm -rf BUILD/* BUILDROOT/* RPMS/* SRPMS/* SOURCES/s3fs-fuse-1.77.tar.gz SOURCES/fuse-*
+rm -rf BUILD/* BUILDROOT/* RPMS/* SRPMS/* SOURCES/s3fs-fuse-1.78.tar.gz SOURCES/fuse-*

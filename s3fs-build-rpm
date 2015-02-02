@@ -1,6 +1,6 @@
 #!/bin/bash
-if [ ! -f './SOURCES/s3fs-fuse-1.77.tar.gz' ]; then
-  wget 'https://github.com/s3fs-fuse/s3fs-fuse/archive/v1.77.tar.gz' -O './SOURCES/s3fs-fuse-1.77.tar.gz'
+if [ ! -f './SOURCES/s3fs-fuse-1.78.tar.gz' ]; then
+  wget 'https://github.com/s3fs-fuse/s3fs-fuse/archive/v1.78.tar.gz' -O './SOURCES/s3fs-fuse-1.78.tar.gz'
 fi
 rpmbuild --define "_topdir `pwd`" -ba 'SPECS/s3fs-fuse.spec'
 echo Your packages are available at $PWD/RPMS

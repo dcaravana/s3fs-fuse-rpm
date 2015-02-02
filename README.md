@@ -7,7 +7,7 @@ Based off the [spec file](http://kad.fedorapeople.org/packages/s3fs/s3fs.spec) c
 
 Includes RPMs for fuse-2.8.5 if needed.
 
-Tested on x64 CentOS 6.4 and Amazon Linux 2014.03
+Tested on x64 CentOS 5.11, 6.4 and Amazon Linux 2014.03
 
 
 Requirements
